@@ -10,8 +10,8 @@
 <body>
 
 
+  <table class="table caption-top table-responsive table-hover">
 	<caption class="text-style">List of all transactions</caption>
-  <table class="table table-responsive table-hover">
     <thead class=" bg-dark  text-color">
       <tr >
         <th>#</th>
@@ -42,11 +42,14 @@
         <td>2000</td>
 		  
       </tr>
-		<tr class="row col-12">
-			
-			<th class="text">Total 4000</th>
-		</tr>
+		
     </tbody>
+	  <tfoot>
+		  <tr>
+			  <td id="total" scope="row" colspan="3" class="font-monospace fw-bold text-end">Total</td>
+			  <td class="fw-bold">4000</td>
+		  </tr>
+	  </tfoot>
   </table>
 
 </body>
